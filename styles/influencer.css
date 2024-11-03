@@ -1,0 +1,53 @@
+/* poppins font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* shared styles */
+*{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    margin: 50px;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background: #E02C6D;
+    border: 0;
+    border-radius: 25px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    align-items: left;
+
+}
+/* Header related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: #3A3A3A;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 24px;
+}
+nav i{
+    margin-right: 24px;
+}
+.banner-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    align-items: left;
+    color: #3A3A3A;
+}
+.banner-greetings{
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: left;
+    color: #3A3A3A;
+}
+.banner{
+    display: flex;
+}
