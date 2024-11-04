@@ -145,6 +145,10 @@ nav i{
     float: right;
     background: none;
 }
+/* feature section styles */
+.feature-container{
+    display: flex;
+}
 
 /* Responsive styles */
 /* Mobile devices */
