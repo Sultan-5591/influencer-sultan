@@ -47,7 +47,52 @@ nav i{
     font-weight: 600;
     align-items: left;
     color: #3A3A3A;
+    width: 90%;
+    text-align: justify;
 }
 .banner{
     display: flex;
+}
+.img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgb(246, 244, 244);
+    margin-right: 15px;
+}
+/* sponsors styles */
+.sponsors{
+    text-align: center;
+    margin: 70px;
+}
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Collection card styles */
+
+/* Responsive styles */
+/* Mobile devices */
+@media screen and (max-width:576px) {
+    header{
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    nav{
+        justify-content: center;
+        text-align: center;
+    }
+    .nav-title{
+        justify-content: center;
+        align-content: center;
+    }
+    nav, .banner{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+    }  
 }
