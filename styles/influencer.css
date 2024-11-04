@@ -146,8 +146,46 @@ nav i{
     background: none;
 }
 /* feature section styles */
+.featured-section{
+    margin: 40px;
+}
 .feature-container{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.feature-title{
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 15px;
+}
+.feature-description{
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: -50px;
+}
+.feature-content{
+    margin-left: 50px;
+    width: 90%;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.btn-primary-2{
+    color: #FFFFFF;
+    background: #E02C6D;
+    border: 0;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    align-items: left;
 }
 
 /* Responsive styles */
